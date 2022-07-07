@@ -1,0 +1,12 @@
+Flask==1.1.4
+markupsafe==2.0.1
+gunicorn==19.9.0
+idna==2.10
+itsdangerous
+Jinja2
+joblib==1.1.0
+jsonschema==3.2.0
+lxml==4.6.3
+requests
+flask_sqlalchemy
+flask_login
