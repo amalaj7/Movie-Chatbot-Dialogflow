@@ -28,3 +28,5 @@ pip install -r requirements.txt
 ```bash 
 python app.py
 ```
+
+![chatbot/movie.gif](Web_app)

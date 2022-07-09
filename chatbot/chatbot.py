@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/get_movie_detail', methods=['POST'])
 def get_movie_detail():
        data = request.get_json(silent=True)
-       movie = data['queryResult']['parameters']['movie']
+       movie = data['queryResult']['parameters']['movie'][0]
        movie = movie.replace(" ", "_") 
        movie_detail = requests.get('http://www.omdbapi.com/?t={0}&apikey=YOUR_API_KEY'.format(movie)).content
        movie_detail = json.loads(movie_detail)
