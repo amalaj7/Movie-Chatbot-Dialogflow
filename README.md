@@ -29,4 +29,4 @@ pip install -r requirements.txt
 python app.py
 ```
 
-![chatbot/movie.gif](Web_app)
+![Web Application](movie.gif)
